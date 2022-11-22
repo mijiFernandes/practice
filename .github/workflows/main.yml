@@ -1,0 +1,14 @@
+name: P-Log
+
+on: [push]
+
+jobs:
+  build:
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: a pwd action
+    - run: pwd
+    - name: a ls action
+    - run: ls
